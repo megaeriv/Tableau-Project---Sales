@@ -1,6 +1,6 @@
 # Tableau Project
 
-In this project, I would go over the steps regularhy taken when embarking on building a dashboard which typically are as follows:
+In this project, I would go over the steps regularly taken when embarking on building a dashboard which typically are as follows:
 
 ### STEP 1: Analyze Requirements
   1. Collect Requirements
