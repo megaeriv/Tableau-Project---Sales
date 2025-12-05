@@ -8,14 +8,14 @@ In this project, I would go over the steps regularhy taken when embarking on bui
   3. Draw Mockups
   4. Choose Colors
 
-## STEP 2: Build Data Source 
+### STEP 2: Build Data Source 
   1. Connect Data 
   2. Create Data Model
   3. Rename Fields
   4. Check Data Types
   5. Understand the Data
 
-## STEP 3: Building Charts
+### STEP 3: Building Charts
   1. Create Calulated fields & Test
   2. Build Chart
   3. Format : 
@@ -24,7 +24,7 @@ In this project, I would go over the steps regularhy taken when embarking on bui
       + Coloring
       + Tooltips
 
-## STEP 4: Build Dashboard
+### STEP 4: Build Dashboard
   1. Draw Mockup for container
   2. Create Container Structure
   3. Put all Charts Together
