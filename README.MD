@@ -51,12 +51,12 @@ This is where the requirements from stakholders are understood to detail
 Display a summary of total sales, profits and quantity for the current year and the previous year.
 
 #### Sales Trends
-– Present the data for each KPI on a monthly basis for both the current year and the previous year.
-– Identify months with highest and lowest sales and make them easy to recognize.
++ Present the data for each KPI on a monthly basis for both the current year and the previous year.
++ Identify months with highest and lowest sales and make them easy to recognize.
 
 #### Product Subcategory Comparison
-– Compare sales performance by different product subcategories for the current year and the previous year.
-– Include a comparison of sales with profit.
++ Compare sales performance by different product subcategories for the current year and the previous year.
++ Include a comparison of sales with profit.
 
 #### Weekly Trends for Sales & Profit
 + Present weekly sales and profit data for the current year.
