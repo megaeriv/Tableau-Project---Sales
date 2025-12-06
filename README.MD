@@ -1,105 +1,135 @@
-# Tableau Project
+# Tableau Dashboard Project
 
+This project demonstrates a structured, end-to-end workflow for building Tableau dashboards, from gathering business requirements to producing polished, interactive data visualizations.
 
-
-
-In this project, I would go over the steps regularly taken when embarking on building a dashboard which typically are as follows:
-
-#### STEP 1: Analyze Requirements
-1. Collect Requirements
-2. Choose the Right Charts
-3. Draw Mockups
-4. Choose Colors
-
-#### STEP 2: Build Data Source 
-1. Connect Data 
-2. Create Data Model
-3. Rename Fields
-4. Check Data Types
-5. Understand the Data
-
-#### STEP 3: Building Charts
-1. Create Calulated fields & Test
-2. Build Chart
-3. Format : 
-    + Remove Lines & Grid
-    + Clean up Axis & Headers
-    + Coloring
-    + Tooltips
-
-#### STEP 4: Build Dashboard
-1. Draw Mockup for container
-2. Create Container Structure
-3. Put all Charts Together
-4. Format : 
-    + Distribute Object Evenly
-    + Format Colors, Size...etc
-    + Fit "Entire View"
-    + Add legends
-    + Add spaces (inner/outer padding)
-5. Add Filters & Dynamic
-6.Add Icons
+The approach is broken into four key phases:
 
 ---
-## Sales Dashboard | Requirements
-## STEP 1 : Analyze Requirements
-                                1. Collect Requirements
-                                2. `Choose the Right Charts`
 
-##### Dashboard purpose: The purpose of the sales dashboard is to present an overview of sales metrics and trends in order to analyze year-over-year sales perfromance and understand sales trends.
+## Phase 1: Analyze Requirements
 
-This is where the requirements from stakeholders are understood to detail
+1. Gather business requirements  
+2. Identify suitable chart types  
+3. Sketch initial mockups/wireframes  
+4. Define visual style (colors, layout, typography)  
 
-### Key Requirements
-#### KPI Overview `BANS`
-Display a summary of total sales, profits and quantity for the current year and the previous year. 
+---
 
-#### Sales Trends `LINE CHARTS - SPARKLINE`
-+ Present the data for each KPI on a monthly basis for both the current year and the previous year. 
-+ Identify months with highest and lowest sales and make them easy to recognize.
+## Phase 2: Build the Data Source
 
-#### Product Subcategory Comparison `BAR CHARTS - BAR IN BAR`
-+ Compare sales performance by different product subcategories for the current year and the previous year. 
-+ Include a comparison of sales with profit.
+1. Connect and import data  
+2. Create the data model  
+3. Rename fields for clarity  
+4. Validate and adjust data types  
+5. Explore and understand the dataset  
 
-#### Weekly Trends for Sales & Profit `LINE CHART`
-+ Present weekly sales and profit data for the current year.
-+ Display the average weekly values.
-+ Highlight weeks that are above and below the average to draw attention to sales & profit performance.
+---
 
+## Phase 3: Build Visualizations
 
-## Customer Dashboard | Requirements
-## STEP 1 : Analyze Requirements
-                                1. Collect Requirements
-                                2. `Choose the Right Charts`
-##### Dashboard Purpose
-The customer dashboard aims to provide an overview of customer data, trends and behaviors. It will help marketing teams and management to understand customer segments and improve customer satisfaction.
+1. Create and test calculated fields  
+2. Build individual charts  
+3. Apply formatting and styling:
+   - Remove unnecessary chart elements  
+   - Adjust axes and labels  
+   - Establish a consistent color palette  
+   - Design informative tooltips  
 
-###Key Requirements
-#### KPI Overview `BANS`
-Display a summary of total number of customers , total sales per customer and total number of orders for the current year and the previous year.
+---
 
-#### Customer Trends `LINE CHARTS - SPARKLINE`
-+ Present the data for each KPI on a monthly basis for both the current year and the previous year.
-+ Identify months with highest and lowest sales and make them easy to recognize.
+## Phase 4: Build the Dashboard
 
-#### Customer Distribution by Number of Orders
-Represent the distribution of customers based on the number of orders they have placed to provide insights into customer behavior, loyalty and engagement.
+1. Draft a layout/wireframe  
+2. Create container structure  
+3. Assemble all charts  
+4. Format and refine:
+   - Evenly distribute and align elements  
+   - Adjust spacing, sizing, and colors  
+   - Fit content to view  
+   - Add legends as needed  
+   - Use padding for visual balance  
 
-#### Top 10 Customers By Profit ``
-+ Present the top 10 customers who have generated the highest profits for the company.
-+ Show additional information like rank, number of orders, current sales, current profit and the last order date.
+5. Add interactivity (filters, actions, parameters)  
+6. Add icons and UI enhancements  
 
-## Design & Interactivity Requirements
-### Dashboard Dynamic
-+ The Dashboard should allow users to check historical data by offering them the flexibility to select any desired year.
-+ Provide users with the ability to navigate between the dashboards easily.
-+ Make the charts and graphs interactive, enabling users to filter data using the charts.
+---
 
-### Data Filters
-Allow users to filter data by product information like category and subcategory and by location information like region, state and city.
+# Sales Dashboard Requirements
 
+## Purpose
 
+Present an overview of sales performance and trends to analyze year-over-year metrics and identify high/low performing periods.
 
+## Key Requirements
 
+### KPI Overview (BANs)
 
+Display total sales, profit, and quantity for the current and previous year.
+
+### Sales Trends (Line Charts / Sparklines)
+
+- Monthly view of KPIs for both years  
+- Highlight best and worst months  
+
+### Product Subcategory Comparison (Bar in Bar)
+
+- Compare subcategory sales for both years  
+- Show profit alongside sales  
+
+### Weekly Sales and Profit (Line Chart)
+
+- Weekly trends for the current year  
+- Include average line  
+- Highlight values above and below average  
+
+---
+
+# Customer Dashboard Requirements
+
+## Purpose
+
+Provide insights into customer behavior, segmentation, and performance to support retention and marketing decisions.
+
+## Key Requirements
+
+### KPI Overview (BANs)
+
+Display total customers, sales per customer, and total orders for the current and previous year.
+
+### Customer Trends (Line Charts / Sparklines)
+
+- Monthly KPI trends for both years  
+- Highlight high and low performing periods  
+
+### Customer Distribution (Histogram / Bar Chart)
+
+Segment customers by number of orders to understand engagement and loyalty patterns.
+
+### Top 10 Customers by Profit
+
+Present:
+- Rank  
+- Number of orders  
+- Current sales  
+- Current profit  
+- Last order date  
+
+---
+
+# Design and Interactivity Requirements
+
+## Dashboard Interactivity
+
+- Ability to select any year to view historical performance  
+- Provide navigation between dashboards  
+- Enable interactive filtering through charts  
+
+## Data Filters
+
+Enable filtering by:
+- Product: category and subcategory  
+- Location: region, state, and city  
+
+---
+
+## Summary
