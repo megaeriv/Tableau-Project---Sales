@@ -40,6 +40,8 @@ In this project, I would go over the steps regularly taken when embarking on bui
   5. Add Filters & Dynamic
   6.Add Icons
 
+--
+
 ## STEP 1 : Analyze Requirements
 1. Collect Requirements
 This is where the requirements from stakholders are understood to detail
