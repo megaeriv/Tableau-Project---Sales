@@ -61,6 +61,7 @@ The approach is broken into four key phases:
 Present an overview of sales performance and trends to analyze year-over-year metrics and identify high/low performing periods.
 
 ## Key Requirements
+Following the steps in the diffenrt phases, the chart type has be chpoosen as seen in the parenthesis
 
 ### KPI Overview (BANs)
 
@@ -132,4 +133,10 @@ Enable filtering by:
 
 ---
 
+
+
+---
+
 ## Summary
+
+This project highlights a structured approach to building effective Tableau dashboards that emphasize usability, clarity, and interactive analysis to support business decision-making.
