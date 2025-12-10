@@ -65,7 +65,12 @@ Following the steps in the diffenrt phases, the chart type has be chpoosen as se
 
 ### KPI Overview (BANs)
 
-Display total sales, profit, and quantity for the current and previous year.
+Display total sales, profit, and quantity for the current and previous year.  
+Following information to be shown for each BAN
+   - Metric
+   - Year
+   - Difference to previous year
+   - Max and Min values
 
 ### Sales Trends (Line Charts / Sparklines)
 
@@ -82,6 +87,10 @@ Display total sales, profit, and quantity for the current and previous year.
 - Weekly trends for the current year  
 - Include average line  
 - Highlight values above and below average  
+
+### Color Code
+- 
+- 
 
 ---
 
@@ -130,6 +139,10 @@ Present:
 Enable filtering by:
 - Product: category and subcategory  
 - Location: region, state, and city  
+
+### Color Code
+- 
+- 
 
 ---
 
