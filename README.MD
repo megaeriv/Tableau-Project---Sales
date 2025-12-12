@@ -54,6 +54,7 @@ The approach is broken into four key phases:
 
 ---
 
+# Phase 1: Analyze Requirements
 # Sales Dashboard Requirements
 
 ## Purpose
@@ -61,7 +62,7 @@ The approach is broken into four key phases:
 Present an overview of sales performance and trends to analyze year-over-year metrics and identify high/low performing periods.
 
 ## Key Requirements
-Following the steps in the diffenrt phases, the chart type has be chpoosen as seen in the parenthesis
+Following the steps in the diffenrt phases, the chart type has been choosen as seen in the parenthesis
 
 ### KPI Overview (BANs)
 
